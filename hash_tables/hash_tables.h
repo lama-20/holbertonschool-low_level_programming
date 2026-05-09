@@ -37,4 +37,6 @@ int hash_table_set(hash_table_t *ht, const char *key,
 
 int update_value(hash_node_t *node, const char *value);
 hash_node_t *create_node(const char *key, const char *value);
+
+char *hash_table_get(const hash_table_t *ht, const char *key);
 #endif
